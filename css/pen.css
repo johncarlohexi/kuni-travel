@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +21,7 @@ body {
 
 .bg-img-gray {
   height: 100%;
+  background-color: rgba(48, 48, 48, 0.1);
 }
 
 .navbar {
@@ -41,7 +43,7 @@ body {
 
 .navbar .navbar-links {
   background-color: rgba(253, 253, 253, 0.7);
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
   border-bottom-left-radius: 1rem;
 }
 
@@ -57,7 +59,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   gap: 2rem;
-  font-family: 'Kosugi Maru', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .navbar .navbar-links ul :hover {
@@ -67,10 +69,78 @@ body {
 .navbar .navbar-links a {
   color: black;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .navbar .navbar-links li {
   list-style-type: none;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 12rem;
+  margin-top: 1rem;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.99);
+  font-family: 'Caveat', sans-serif;
+}
+
+.main .main-desc p {
+  font-size: 2.1rem;
+  font-style: italic;
+}
+
+.main .main-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.main .main-box .main-box-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 1rem;
+  height: 3rem;
+  padding: 0.2rem 2rem;
+  -webkit-box-shadow: 1px 0px 19px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 0px 19px 0px rgba(0, 0, 0, 0.2);
+  font-family: 'Oswald', sans-serif;
+}
+
+.main .main-box .main-box-links a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.99);
+}
+
+.main .main-box .main-box-links a:hover {
+  color: lightblue;
 }
 /*# sourceMappingURL=pen.css.map */
