@@ -292,33 +292,4 @@ body {
 .bottom-container .bottom-title .tokyo-seemore a {
   color: black;
 }
-
-.bottom-container .box-container {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 5rem;
-  height: 100%;
-}
-
-.bottom-container .box-container .tokyo {
-  height: 24em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.bottom-container .box-container .tokyo .img-t {
-  width: 400px;
-  height: 266px;
-}
-
-.bottom-container .box-container .tokyo .img-t .tokyo-pic {
-  width: 100%;
-  height: 100%;
-  border-radius: 0.2em;
-}
 /*# sourceMappingURL=pen.css.map */

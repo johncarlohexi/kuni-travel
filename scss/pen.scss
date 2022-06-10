@@ -221,26 +221,4 @@ body {
             }
         }
     }
-    .box-container {
-        align-items: center;
-        margin: 0 5rem;
-        height: 100%;
-        .tokyo {
-            height: 24em;
-            display: flex;
-            justify-content: space-between;
-            .img-t {
-                width:400px;
-                height:266px;
-
-                .tokyo-pic {
-                    width:100%;
-                    height: 100%;
-                    border-radius: 0.2em;
-                }
-            }
-        }
-
-    }
-
 }
